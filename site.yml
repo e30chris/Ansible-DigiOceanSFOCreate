@@ -1,0 +1,6 @@
+---
+# Ansible Playbook to create droplets in Digital Oceans SFO datacenter
+- name: create droplets
+  hosts: localhost   
+  roles:
+    - common

@@ -1,0 +1,22 @@
+---
+# variables to be used by all roles
+# digital ocean droplet options - change these
+digi_ssh_key: 123456
+droplet_name: dropets
+droplet_image: debianredhat
+#
+# digital ocean account options
+digi_client_id: 123456
+digi_client_api_key: 123456
+#
+# digital ocean api settings - dont change the values
+digi_region: 3
+digi_drop_size_512mb: 66
+digi_drop_size_1gb: 63
+digi_drop_size_2gb: 62
+digi_drop_size_4gb: 64
+digi_drop_size_8gb: 65
+digi_drop_size_16gb: 61
+digi_drop_size_32gb: 60
+digi_drop_size_48gb: 70
+digi_drop_size_64gb: 69

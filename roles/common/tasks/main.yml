@@ -1,0 +1,12 @@
+---
+# Common tasks to run across all roles
+- name: create a droplet in SFO
+  digital_ocean:
+    state=present
+    ssh_key_ids={{ digi_ssh_key }}
+    name={{ droplet_name }}
+    client_id={{ digi_client_id }}
+    api_key={{ digi_client_api_key }}
+    size_id={{ digi_drop_size_512mb }}
+    region_id=3
+    image_id={{ droplet_image }}

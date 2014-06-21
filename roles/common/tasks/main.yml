@@ -10,3 +10,4 @@
     size_id={{ digi_drop_size_512mb }}
     region_id=3
     image_id={{ droplet_image }}
+    private_networking=yes

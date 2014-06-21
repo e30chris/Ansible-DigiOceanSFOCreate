@@ -19,11 +19,9 @@ With this format:
 variable: value
 ```
 
-_Default settings in the answer file are not using variables for simplicity._
-
 ## Common Tasks
 
-  * task
+  * ensure the droplet is present
   
 
 ## On each server
@@ -32,5 +30,6 @@ _Default settings in the answer file are not using variables for simplicity._
 
 ## ToDo
 
-  * todo
+  * add user post install
+  * add droplet ip to .ssh/config
 

@@ -31,5 +31,5 @@ variable: value
 ## ToDo
 
   * add user post install
-  * add droplet ip to .ssh/config
+  * add droplet ip to .ssh/configsl
 
